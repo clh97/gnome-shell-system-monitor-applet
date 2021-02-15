@@ -283,7 +283,7 @@ const smStyleManager = class SystemMonitor_smStyleManager {
 
 const smDialog = class SystemMonitor_smDialog extends ModalDialog.ModalDialog {
     constructor() {
-        super({styleClass: 'prompt-dialog'});
+        super();
         let mainContentBox = new St.BoxLayout({style_class: 'prompt-dialog-main-layout',
             vertical: false});
         this.contentLayout.add(mainContentBox,
